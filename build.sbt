@@ -11,6 +11,8 @@ libraryDependencies ++= Seq(
   "javax.servlet" % "javax.servlet-api" % "3.1.0",
   "org.eclipse.jetty" % "jetty-server" % jettyVersion,
   "org.eclipse.jetty" % "jetty-webapp" % jettyVersion,
+  "org.typelevel" %% "cats-effect" % "2.0.0",
+  "io.monix" %% "monix" % "3.1.0",
   "junit" % "junit" % "4.12" % "test",
   "org.mockito" % "mockito-all" % "1.10.19" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test"
